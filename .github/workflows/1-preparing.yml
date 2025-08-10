@@ -1,9 +1,10 @@
 name: Step 1 # Preparing to make your extension
 
 on:
+  workflow_dispatch:
   push:
     branches:
-      - "accelerate-with-copilot"
+      - main 
 
 permissions:
   contents: read
