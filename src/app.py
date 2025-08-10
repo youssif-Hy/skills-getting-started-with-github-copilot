@@ -95,3 +95,6 @@ def signup_for_activity(
         "current_participants": len(act.participants),
         "max_participants": act.max_participants,
     }
+
+
+# this is a test change for github copilot exampl
